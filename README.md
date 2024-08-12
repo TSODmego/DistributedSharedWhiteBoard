@@ -4,6 +4,16 @@ A distributed shared whiteboard system including central server and client, base
 
 这是一个基于TCP socket进行中央服务器与客户端交互的同步共享画板。
 
+## 功能列表
+
+客户端包含以下功能：
+- 用户作为房间管理员创建房间
+- 用户申请加入房间
+- 所有常见绘画功能
+- 保存与导入画板
+- 房间独立聊天频道
+- 房间管理员系统（如用户列表以及踢人系统）
+
 ## 如何使用：
 
 Code文件夹中包含服务器端以及客户端源码。
@@ -23,6 +33,16 @@ cmd运行指令 `java –jar server.jar + [运行的IP地址] + [运行端口] +
 cmd运行指令 `java –jar client.jar + [连接的服务器IP地址] + [连接的服务器端口]`
 
 如：`java –jar client.jar localhost 7674`
+
+## Feature List
+
+The client includes the following features:
+- Users can create rooms as room administrators
+- Users can apply to join rooms
+- All common drawing functions
+- Save and import whiteboard
+- Independent chat channel for each room
+- Room management system (e.g., user list and kick-out system)
 
 ## How to Use:
 
