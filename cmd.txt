@@ -1,0 +1,2 @@
+java –jar server.jar localhost 7674 server0
+java –jar client.jar localhost 7674
